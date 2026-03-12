@@ -1,0 +1,151 @@
+Sending: G28
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+X:134.25 Y:125.00 Z:10.00 E:0.00 Count X:6740 Y:6000 Z:4000
+echo:Bed Leveling ON
+echo:Fade Height 10.00
+ok
+Sending: G28
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+X:134.25 Y:125.00 Z:10.00 E:0.00 Count X:6740 Y:6000 Z:4000
+echo:Bed Leveling ON
+echo:Fade Height 10.00
+ok
+Sending: G1 X0
+ok
+Sending: G1 Y0
+ok
+Sending: G28
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+X:134.25 Y:125.00 Z:10.00 E:0.00 Count X:6740 Y:6000 Z:4000
+echo:Bed Leveling ON
+echo:Fade Height 10.00
+ok
+Sending: G28
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+X:134.25 Y:125.00 Z:10.00 E:0.00 Count X:6740 Y:6000 Z:4000
+echo:Bed Leveling ON
+echo:Fade Height 10.00
+ok
+Sending: G1 X90
+ok
+Sending: G28 XY
+echo:busy: processing
+echo:busy: processing
+X:37.00 Y:35.00 Z:10.00 E:0.00 Count X:-1040 Y:-1200 Z:4000
+echo:Bed Leveling ON
+echo:Fade Height 10.00
+ok
+Sending: G28
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+echo:busy: processing
+X:134.25 Y:125.00 Z:10.00 E:0.00 Count X:6740 Y:6000 Z:4000
+echo:Bed Leveling ON
+echo:Fade Height 10.00
+ok
+Sending: G1 X200
+ok
+Sending: G1 X220
+ok
+Sending: G1 X280
+ok
+Sending: M503
+echo:  G21    ; Units in mm (mm)
+echo:; Filament settings: Disabled
+echo:  M200 S0 D1.75
+echo:; Steps per unit:
+echo: M92 X80.00 Y80.00 Z400.00 E424.90
+echo:; Maximum feedrates (units/s):
+echo:  M203 X500.00 Y500.00 Z5.00 E30.00
+echo:; Maximum Acceleration (units/s2):
+echo:  M201 X4000.00 Y4000.00 Z4000.00 E4000.00
+echo:; Acceleration (units/s2): P<print_accel> R<retract_accel> T<travel_accel>
+echo:  M204 P2500.00 R2500.00 T2500.00
+echo:; Advanced: B<min_segment_time_us> S<min_feedrate> T<min_travel_feedrate> J<junc_dev>
+echo:  M205 B20000.00 S0.00 T0.00 J0.10
+echo:; Home offset:
+echo:  M206 X50.00 Y50.00 Z0.00
+echo:; Auto Bed Leveling:
+echo:  M420 S1 Z10.00
+echo:  G29 W I0 J0 Z0.34375
+echo:  G29 W I1 J0 Z0.36975
+echo:  G29 W I2 J0 Z0.34875
+echo:  G29 W I3 J0 Z0.16375
+echo:  G29 W I0 J1 Z0.17675
+echo:  G29 W I1 J1 Z0.13725
+echo:  G29 W I2 J1 Z0.08975
+echo:  G29 W I3 J1 Z-0.02575
+echo:  G29 W I0 J2 Z0.03725
+echo:  G29 W I1 J2 Z0.00875
+echo:  G29 W I2 J2 Z-0.01425
+echo:  G29 W I3 J2 Z-0.10825
+echo:  G29 W I0 J3 Z-0.18025
+echo:  G29 W I1 J3 Z-0.18375
+echo:  G29 W I2 J3 Z-0.16125
+echo:  G29 W I3 J3 Z-0.13325
+echo:; Material heatup parameters:
+echo:  M145 S0 H200.00 B60.00 F0
+echo:  M145 S1 H230.00 B70.00 F0
+echo:; PID settings:
+echo:  M301 P17.10 I1.39 D52.79
+echo:  M304 P54.86 I10.06 D199.38
+echo:; Power-Loss Recovery:
+echo:  M413 S1
+echo:; Z-Probe Offset (mm):
+echo:  M851 X-24.25 Y-15.00 Z-1.61
+echo:; Stepper driver current:
+echo:  M906 X550 Y550 Z800
+echo:  M906 T0 E600
+echo:; Hybrid Threshold:
+echo:  M913 X100 Y100 Z3
+echo:  M913 T0 E30
+echo:; Driver stepping mode:
+echo:  M569 S1 X Y Z
+echo:  M569 S1 T0 E
+Input Shaping:
+M593 X F42.00 D0.15
+M593 Y F40.00 D0.15
+echo:; Filament load/unload lengths:
+echo:  M603 L0.00 U100.00
+ok
+Sending: M114
+X:270.00 Y:125.00 Z:10.00 E:0.00 Count X:17600 Y:6000 Z:4000
+ok
+Sending: G1 Y280
+ok
+Sending: M114
+X:270.00 Y:277.00 Z:10.00 E:0.00 Count X:17600 Y:18160 Z:4000
+ok
+File will be saved to: C:/Users/localadmin/Desktop/_data/Coding/GCoder/dist/export/log_2026-03-12_09-56-21.txt
