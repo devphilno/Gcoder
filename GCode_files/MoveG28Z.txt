@@ -1,0 +1,6 @@
+G28 XY                ; Home X/Y normally
+G1 X100 Y40 F6000      ; Move to top-left corner
+M420 S0               ; Disable mesh leveling if enabled
+G30                   ; Probe Z here (BLTouch measures Z at this XY)
+G1 Z0 F3000           ; Move back down to Z=0 after probe lift
+M420 S1               ; Re-enable mesh leveling
