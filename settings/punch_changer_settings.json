@@ -1,0 +1,40 @@
+{
+    "file_path": "E:\\BA-Git\\Werkzeugwechsler\\settings\\punch_changer_settings.json",
+    "magazine_settings": {
+        "S1": {
+            "size": 1,
+            "pos": 7,
+            "nPunching": 1
+        },
+        "S2": {
+            "size": 2,
+            "pos": 1,
+            "nPunching": 0
+        },
+        "S3": {
+            "size": 3,
+            "pos": 7,
+            "nPunching": 0
+        },
+        "S4": {
+            "size": 4,
+            "pos": 3,
+            "nPunching": 0
+        },
+        "S5": {
+            "size": 5,
+            "pos": 5,
+            "nPunching": 0
+        },
+        "S6": {
+            "size": 6,
+            "pos": 6,
+            "nPunching": 0
+        },
+        "S8": {
+            "size": 8,
+            "pos": 7,
+            "nPunching": 0
+        }
+    }
+}
